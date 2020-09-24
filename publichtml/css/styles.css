@@ -1,0 +1,78 @@
+li {
+  display: inline;
+}
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+	background-color:#0D9488;
+	text-decoration-color:black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0
+}
+
+body {
+  background-color: #F2F2F2;
+  font-size: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 2000px;
+}
+
+li a {
+  display: block;
+  color: ;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover / the manue bar */ 
+li a:hover {
+  background-color: black;
+  color: white;
+}
+  li a.active {
+  background-color: green;
+  color: white;
+}
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #038C8C;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #202626; 
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+h2 {
+  border: 1px #C3E4DF;
+  outline-style: solid;
+  outline-color: invert;
+  width: 30%;
+  background-color: #C7D1D9; 
+}
+
