@@ -1,9 +1,8 @@
-li {
-  display: inline;
-}
-.serif {
-  font-family: "Times New Roman", Times, serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
 header {
 	background-color:#0D9488;
 	text-decoration-color:black;
@@ -31,15 +30,15 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover / the manue bar */ 
 li a:hover {
   background-color: black;
   color: white;
 }
   li a.active {
-  background-color: green;
+  background-color: #8C1636;
   color: white;
 }
+
 li {
   float: left;
 }
@@ -59,7 +58,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #202626; 
 }
@@ -67,7 +66,9 @@ li a:hover {
 h1 {
   font-size: 40px;
   text-align: center;
+  text-shadow: 2px 2px 5px
 }
+
 h2 {
   border: 1px #C3E4DF;
   outline-style: solid;
@@ -76,3 +77,54 @@ h2 {
   background-color: #C7D1D9; 
 }
 
+.first {
+  background-color: lightgrey;
+}
+
+.mainpage {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.second1 {
+  text-align: center;
+  color: #112026;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px #3D5E73;
+}
+.second {
+  letter-spacing: 3px;
+}
+.customer {
+  text-align: center;
+}
+.stores {
+  background-color: lightgrey;
+}
+
+h3 {
+   font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 5px color:;
+}
+#summary {
+  font-size: 20px;
+}
+#month {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+#hours {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+#buy {
+  font-size: 18px;
+  font-style: "Times New Roman", Times, serif;
+}
+.even {
+    background-color: #E6E2E1;
+}
+.odd {
+    background-color: #E0DDDC;
+}
